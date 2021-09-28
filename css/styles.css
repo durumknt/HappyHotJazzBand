@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 }
 
+/*MENU NAV*/
+
 nav.menu-nav {
 	background-color: #1a1a1a;
 	color: #fff;
@@ -18,13 +20,23 @@ nav.menu-nav ul {
 	align-items: center;
 }
  nav.menu-nav ul li a {
- 	background-color: #fff;
+ 	color: #fff;
  	text-decoration: none;
  	padding: 12px;
  }
 
  nav.menu-nav ul li a:hover {
- 	background-color: #1a1a1a;
- 	color: ;
+ 	background-color: #fff;
+ 	color: #1a1a1a;
  	border-radius: 4px;
  }
+
+div.main {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	width: 1300px;
+	height: 1124px;
+}
